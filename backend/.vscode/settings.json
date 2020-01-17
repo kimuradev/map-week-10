@@ -1,0 +1,26 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "eslint.nodePath": "./node_modules/@pb/scripts/node_modules/eslint",
+  "eslint.options": {
+    "configFile": "./node_modules/@pb/scripts/config/eslintrc.js",
+    "resolvePluginsRelativeTo": "./node_modules/@pb/scripts"
+  },
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "prettier.singleQuote": true,
+  "editor.tabSize": 2,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true
+}
